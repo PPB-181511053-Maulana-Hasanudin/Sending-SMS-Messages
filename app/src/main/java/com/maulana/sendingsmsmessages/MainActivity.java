@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             sendSMS("5554", "Hello my friends!");
         }
-        //---sends an SMS message--- //
         private void sendSMS(String phoneNumber, String message)
         {
             SmsManager sms = SmsManager.getDefault();
